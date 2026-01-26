@@ -1,0 +1,132 @@
+/*
+html {
+  max-width: 70ch;
+  padding: 3em 1em;
+  margin: auto;
+  line-height: 1.75;
+  font-size: 1.25em;
+  background-color: #CBCAC6;
+  background-image: linear-gradient(315deg, #CBCAC6 0%, #e2e1dd 74%);
+}
+
+h1,h2,h3,h4,h5,h6 {
+  margin: 3em 0 1em;
+}
+
+p,ul,ol {
+  margin-bottom: 2em;
+  color: #1d1d1d;
+  font-family: sans-serif;
+}
+
+body {
+    position: relative;
+    margin: 0;
+    background-color: var(--c-beige);
+    color: var(--c-soft-black);
+    font-family: var(--font-std);
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: 400;
+    letter-spacing: normal;
+    line-height: 1.2;
+    overscroll-behavior: none;
+
+    &.is-mobile-open,
+    &.is-modal-open,
+    &.no-scroll {
+        overflow: hidden;
+    }
+}
+
+*/
+
+html{
+    margin-top:0;
+}
+
+body{
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+header{
+    margin: 0;
+    padding: 0;
+    color:white;
+    text-align: right;
+    margin-right: 10rem;
+    margin-left: 10rem;
+}
+
+.general-container{
+    width: 100%;
+}
+
+.banner-section{
+    position: relative;
+    z-index: 0;
+    width: 100%;
+    padding: 12rem 0 5rem;
+    background-color: var(--shades01);
+    background-color: transparent;
+    min-height: 100vh;
+    color: #ffffff;
+    
+}
+
+.banner-background{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 55rem;
+    overflow: hidden;
+    /*background-color: #CBCAC6;*/
+    background-color: #565656;
+}
+
+.banner-content{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    margin-right: 10rem;
+    margin-left: 10rem;
+}
+
+.banner-text{
+    font-size: 4rem;
+    max-width: 70ch;
+    color: #ffffff;
+    padding: 0 1rem;
+    z-index: 1;
+    margin-left: auto;
+    
+}
+
+.banner-title{   
+    text-align: right;
+    margin: 0;
+    line-height: 1.2;
+}
+
+.content-section{
+    max-width: 70ch;
+    padding: 3em 1em;
+    margin: auto;
+    line-height: 1.75;
+    font-size: 1.25em;
+}
+
+/*
+Light: D7CEC7
+Dark: 565656
+Red Accent: 76323F
+Tan Accent: C09F80
+*/
