@@ -64,6 +64,25 @@ header{
     margin-left: 10rem;
 }
 
+ul{
+    list-style-type: none;
+    overflow: hidden;
+}
+
+ul li{
+    float: right;
+}
+
+ul li a{
+    text-decoration: none;
+    padding: 15px;
+    color: white;
+}
+
+u li a:hover, ul li a.active {
+    background: black;
+}
+
 .general-container{
     width: 100%;
 }
@@ -116,12 +135,33 @@ header{
     line-height: 1.2;
 }
 
+.banner-image{
+    
+}
+
 .content-section{
     max-width: 70ch;
     padding: 3em 1em;
     margin: auto;
     line-height: 1.75;
     font-size: 1.25em;
+    background-color: #D7CEC7;
+}
+
+.image-placeholder {
+    width: 600px;  /* Set the desired width */
+    height: 400px; /* Set the desired height */
+    background-color: #f0f0f0; /* A light grey background */
+    border: 1px solid #ccc; /* A visible border */
+    display: flex; /* To center text inside the div */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    color: #888; /* Color for the text */
+
+    position: absolute;
+    top: calc(55rem - 400px); /* 55rem is banner-background height, 200px is half of placeholder height */
+    /*transform: translateX(-25%); *//* Centers it horizontally */
+    z-index: 2; 
 }
 
 /*
