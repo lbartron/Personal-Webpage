@@ -9,38 +9,47 @@
 </head>
 
 <body>
-    <header>
-        <h1>Welcome To My Personal Website</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">About Me</a></li>
-                <li><a href="resume.html">Resume</a></li>
-            </ul>
-        </nav>
-    </header>
-    <hr>
-    <h2>Skill Ranking</h2>
-    <label for="c++">C++: 6/10</label>
-    <progress id="c++" max="100" value="60"></progress>
-    <br>
-    <label for="python">Python: 4/10</label>
-    <progress id="python" max="100" value="40"></progress>
-    <br>
-    <label for="datastructures">Data Structures: 6/10</label>
-    <progress id="datastructures" max="100" value="60"></progress>
-    <br>
-    <label for="teamwork">Teamwork: 8/10</label>
-    <progress id="teamwork" max="100" value="80"></progress>
-    <br>
-    <label for="communication">Communication: 7/10</label>
-    <progress id="communication" max="100" value="70"></progress>
-    <br>
-    <label for="problemsolving">Problem Solving: 9/10</label>
-    <progress id="problemsolving" max="100" value="90"></progress>
-    <br>
-
-    <h2>This Is My Resume</h2>
-    <p>It describes some information about my education and work experience</p>
-    <object data="1%20Page%20Resume%201-12-26.pdf"></object>
+    <section class = "general-container">
+        <header class ="alone-header">
+            <nav>
+                <ul >
+                    <li><a href="index.html" class="black-header">About Me</a></li>
+                    <li><a href="resume.html" class="black-header">Resume</a></li>
+                    <li><a href="contact.html" class="black-header">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+    </section>
+    <section class="resume-section">
+        <div class="general-container">
+            <div class="about-content">
+                <div class="personal-text">
+                    <h2>Skill Ranking</h2>
+                    <div class="span">
+                            <label for="c++">C++: 6/10</label>
+                            <progress id="c++" max="100" value="60"></progress>
+                            <label for="python">Python: 4/10</label>
+                            <progress id="python" max="100" value="40"></progress>
+                            <label for="datastructures">Data Structures: 6/10</label>
+                            <progress id="datastructures" max="100" value="60"></progress>
+                            <label for="teamwork">Teamwork: 8/10</label>
+                            <progress id="teamwork" max="100" value="80"></progress>
+                            <label for="communication">Communication: 7/10</label>
+                            <progress id="communication" max="100" value="70"></progress>
+                            <label for="problemsolving">Problem Solving: 9/10</label>
+                            <progress id="problemsolving" max="100" value="90"></progress>
+                    </div>
+                </div>
+                <div class="personal-text">
+                    <h2>This Is My Resume</h2>
+                    <div class ="personal-text-content">
+                        <p>It describes some information about my education and work experience</p>
+                        
+                    </div>
+                    <object class = "viewable-pdf" data="1%20Page%20Resume%201-12-26.pdf"></object>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
